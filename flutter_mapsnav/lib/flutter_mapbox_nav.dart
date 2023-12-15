@@ -132,7 +132,7 @@ class _SampleNavigationAppState extends State<SampleNavigationApp> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         ElevatedButton(
-                          child: const Text("Start A to B"),
+                          child: const Text("Start\n A to B"),
                           onPressed: () async {
                             var wayPoints = <WayPoint>[];
                             wayPoints.add(_home);
@@ -151,7 +151,7 @@ class _SampleNavigationAppState extends State<SampleNavigationApp> {
                           width: 10,
                         ),
                         ElevatedButton(
-                          child: const Text("Start Multi Stop"),
+                          child: const Text("Start \n Multi Stop"),
                           onPressed: () async {
                             _isMultipleStop = true;
                             var wayPoints = <WayPoint>[];
